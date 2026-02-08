@@ -5,5 +5,5 @@ test("Valid Login", async function({page}) {
    
     await page.goto("https://practicetestautomation.com/practice-test-login/")
 
-    await page.getBy
+    // await page.getBy
 }) 
