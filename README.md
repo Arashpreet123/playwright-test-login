@@ -10,6 +10,8 @@ Can be used for web testing and writing scripts related to web browser.
 
 Supports on testing multiple browsers, Chrome, Firefox, and WebKit.
 
+Can perform web scraping.
+
 Why should we use PlayWright?
 It allows interaction with elements of a web page, handling tasks ranging from inputting text to asserting the visibility of a key element.
 
@@ -29,3 +31,20 @@ References:
 
 Cheat Sheet
 https://bugbug.io/blog/testing-frameworks/playwright-cheat-sheet/
+
+Commands
+
+npx playwright test
+* This runs all tests with the tests file
+
+To run a specific file
+npx playwright test example.spec.js
+
+npx playwright show-report
+* Shows latest report
+
+Notes:
+
+In our playwright config we have settings.
+
+We can set the expect timeout.
